@@ -78,12 +78,12 @@ async def initiate_bot():
         await asyncio.sleep(2.4)
         await startup_delete_last(_____)
     console.print(
-        "[bold green]Congrats!! ShadowMusic has started successfully!\n"
+        "[bold green]Congrats!! ✅Shadow Music has started successfully!\n"
     )
     try:
         await app.send_message(
             LOG_GROUP_ID,
-            "<b>Congrats!! ShadowMusic has started successfully!</b>",
+            "<b>Congrats!! ✅ShadowMusic has started successfully!</b>",
         )
     except Exception as e:
         print(
@@ -99,7 +99,7 @@ async def initiate_bot():
     try:
         await userbot.send_message(
             LOG_GROUP_ID,
-            "<b>Congrats!! Assistant has started successfully!</b>",
+            "✅Congrats!! Assistant1️⃣ has started successfully!</b>",
         )
     except Exception as e:
         print(
